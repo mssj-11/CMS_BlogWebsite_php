@@ -10,7 +10,7 @@ function delete_alert(e) {
         confirmButtonText: 'Yes, delete it!'
       }).then((result) => {
         if (result.isConfirmed) {
-            send_php_cat(e);
+            send_php(e);
         }
       })
 }
@@ -19,7 +19,7 @@ function delete_alert(e) {
 
 
 
-function send_php_cat(e){
+function send_php(e){
     params = { id:e };
     $.ajax({
         data: params,

@@ -1,5 +1,5 @@
 <?php
 include_once('../config/connection.php');
-$delete_post = $_POST["id"];
-$sql = $conn -> query("DELETE FROM categories WHERE id=$delete_post");
+$delete_category = $_POST["id"];
+$sql = $conn -> query("DELETE FROM categories WHERE id=$delete_category");
 ?>

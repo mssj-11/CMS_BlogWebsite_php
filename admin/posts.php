@@ -8,8 +8,8 @@
         <div class="container mt-2 mb-4">
             <div class="row">
                 <div class="col-md-12">
-                    <a href="create.php" class="btn text-white mb-3 bg-success"> Add new post</a>
-                    <h2 class="card-title p-3 bg-danger text-center text-white fw-bold">POSTS Table</h2>
+                    <a href="create.php" class="btn text-white mb-3 bg-success"><i class="fa-solid fa-plus"></i> Add new post</a>
+                    <h2 class="card-title p-3 bg-info text-center text-white fw-bold">POSTS Table</h2>
                     <div class="table-responsive">
                         <table class="table table-striped">
                             <thead class="text-white table-dark">

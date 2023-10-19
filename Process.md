@@ -27,3 +27,11 @@ UPDATE posts SET category_id=9 WHERE id=9;
 UPDATE posts SET category_id=10 WHERE id=10;
 UPDATE posts SET category_id=11 WHERE id=11;
 ```
+
+
+
+
+```sql
+ALTER TABLE users 
+ADD FOREIGN KEY(role_id) REFERENCES rol(id);
+```
