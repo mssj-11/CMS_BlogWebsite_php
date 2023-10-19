@@ -11,12 +11,14 @@ CREATE TABLE categories(
 #   SQL relational
 ```sql
 ALTER TABLE posts
-ADD category_id INT,
 ADD FOREIGN KEY (category_id) REFERENCES categories(id);
+ALTER TABLE users
+ADD FOREIGN KEY (role_id) REFERENCES rol(id);
 ```
 
 ####    Insert Information relational
 ```sql
+INSERT INTO rol(name_role) VALUES ('Admin'), ('User');
 INSERT INTO categories(name) VALUES ('Technology'), ('Trips'), ('Feeding'), ('Sports');
 ```
 

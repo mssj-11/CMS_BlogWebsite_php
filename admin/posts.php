@@ -20,7 +20,7 @@
                                     <th>Title</th>
                                     <th>Summary</th>
                                     <th>Content</th>
-                                    <th>Categoria</th>
+                                    <th>Category</th>
                                     <th class="text-center">ACTIONS</th>
                                 </tr>
                             </thead>
