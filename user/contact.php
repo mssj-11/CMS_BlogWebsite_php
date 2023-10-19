@@ -2,6 +2,7 @@
     $pageTtle='Contact';
     include_once('../include/header.php');
     include_once('navbar.php');
+    include_once('../config/session_validation.php');
 ?>
 <link rel="stylesheet" href="../css/style.css">
 <!--  Contact FORM  -->

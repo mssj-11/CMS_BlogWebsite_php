@@ -2,6 +2,7 @@
     $pageTtle='Post';
     include_once('../include/header.php');
     include_once('navbar.php');
+    include_once('../config/session_validation.php');
 ?>
 
 <br>

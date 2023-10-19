@@ -1,6 +1,7 @@
 <?php
     $pageTtle='Edit Category';
     include_once('../include/header.php');
+    include_once('../config/session_validation.php');
 ?>
 <div class="dashboard d-flex justify-content-between">
     <?php include_once('../include/siderbar.php');?>

@@ -18,8 +18,8 @@
                 <a class="nav-item nav-link active" href="contact.php"><i class="bi bi-people-fill"></i> Contact</a>
               </li>
             </ul>
+          <a href="../config/logout.php" class="btn btn-primary"><i class="fa-solid fa-power-off"></i> Logout</a>
           </div>
-          <!--
-          <a herf="" class="btn btn-primary">Login</a>-->
+
         </div>
       </nav>

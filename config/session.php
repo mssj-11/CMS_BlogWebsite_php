@@ -2,9 +2,7 @@
 
 session_start();
 
-
 if (isset($_SESSION["user"])) {
-    header("Location: ../views/home.php");
+    header("Location: ../admin/home.php");
 }
-
 ?>

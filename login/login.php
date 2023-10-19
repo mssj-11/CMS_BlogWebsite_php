@@ -8,14 +8,19 @@
             <div class="col-md-3"></div>
             <div class="col-md-6 center card shadow p-4 bg-body rounded">
                 <br/><h2 class="title p-3 text-center fw-bold text-white bg-primary">Login</h2><br/>
-                <form action="login.php" class="form" method="POST">
+                <?php 
+                    include_once('login_user.php');?>
+                    <?php
+                    include_once('../config/session.php');
+                ?>
+                <form action="../login/login.php" class="form" method="POST">
                     <div class="form-group mb-3">
                         <label for="email" class="form-label fw-bold"><i class="fa-solid fa-envelope"></i> Email</label>
-                        <input type="email" name="email" placeholfer="Enter tour email" class="form-control fw-bold">
+                        <input type="email" name="email" placeholder="Enter tour email" class="form-control">
                     </div>
                     <div class="form-group mb-3">
                         <label for="password" class="form-label fw-bold"><i class="fa-solid fa-lock"></i> Password</label>
-                        <input type="password" name="password" placeholfer="Enter tour password" class="form-control fw-bold">
+                        <input type="password" name="password" placeholder="Enter tour password" class="form-control">
                     </div>
                     
                     <br/>
